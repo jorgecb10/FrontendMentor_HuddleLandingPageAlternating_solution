@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Frontend Mentor | Huddle landing page with alternating feature blocks</title>
+</head>
+<body>
+  <header class="header">
+    <div class="header__contenedor">
+      <div class="header__barra">
+        <img src="images/logo.svg" alt="imagen-logo" class="header__logo">
+        <a href="#" class="btn">
+          Try It Free
+        </a>
+      </div>
+
+      <div class="header__contenido">
+        <div class="header__info">
+          <h1 class="header__heading">
+            Build The Community Your Fans Will Love
+          </h1>
+          <p class="header__texto">
+            Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
+            Create connections with your users as you engage in genuine discussion. 
+          </p>
+          <a href="#" class="btn btn--rosa">
+            Get Started For Free
+          </a>
+        </div>
+
+        <div class="header__imagen">
+          <img src="images/illustration-mockups.svg" alt="imagen-mockups">
+        </div>
+      </div>
+    </div>
+  </header>
+  
+  <main class="cuadros__contenedor">
+    <div class="cuadro">
+      <div class="cuadro__imagen--grow">
+        <img src="images/illustration-grow-together.svg" alt="imagen-grow-together">
+      </div>
+      <div class="cuadro__info cuadro__info--grow">
+        <h2 class="cuadro__heading">
+          Grow Together
+        </h2>
+        <p class="cuadro__texto">
+          Generate meaningful discussions with your audience and build a strong, loyal community. 
+          Think of the insightful conversations you miss out on with a feedback form. 
+        </p>
+      </div>
+    </div>
+
+    <div class="cuadro">
+      <div class="cuadro__imagen--flowing">
+        <img src="images/illustration-flowing-conversation.svg" alt="imagen-flowing-conversations">
+      </div>
+      <div class="cuadro__info cuadro__info--flowing">
+        <h2 class="cuadro__heading">
+          Flowing Conversations
+        </h2>
+        <p class="cuadro__texto">
+          You wouldn't paginate a conversation in real life, so why do it online? Our threads 
+          have just-in-time loading for a more natural flow.
+        </p>
+      </div>
+    </div>
+
+    <div class="cuadro">
+      <div class="cuadro__imagen cuadro__imagen--users">
+        <img src="images/illustration-your-users.svg" alt="imagen-your-users">
+      </div>
+      <div class="cuadro__info cuadro__info--users">
+        <h2 class="cuadro__heading">
+          Your Users
+        </h2>
+        <p class="cuadro__texto">
+          It takes no time at all to integrate Huddle with your app's authentication solution. 
+          This means, once signed in to your app, your users can start chatting immediately.
+        </p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="build">
+      <h2 class="build__heading">
+        Ready To Build Your Community?
+      </h2>
+      <a href="#" class="btn btn--rosa btn--build">
+        Get Started For Free
+      </a>
+    </div>
+
+    <div class="footer__contenedor">
+      <div class="footer__info">
+        <img src="images/logo.svg" alt="imagen-logo" class="footer__logo">
+        <div class="footer__texto">
+          <img class="footer__icono" src="images/icon-location.svg" alt="icono-localizacion">
+          <p class="footer__descripcion">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+            incididunt ut labore et dolore magna aliqua
+          </p>
+        </div>
+
+        <div class="footer__texto footer__texto--centrado">
+          <img class="footer__icono--chico" src="images/icon-phone.svg" alt="icono-telefono">
+          <p class="footer__descripcion">
+            +1-543-123-4567
+          </p>
+        </div>
+
+        <div class="footer__texto footer__texto--centrado">
+          <img class="footer__icono--chico" src="images/icon-email.svg" alt="icono-email">
+          <p class="footer__descripcion">
+            example@huddle.com
+          </p>
+        </div>
+      </div>
+
+      <div class="footer__links">
+        <div class="footer__link">
+          <a href="#" class="link">Contact Us</a>
+        </div>
+        <div class="footer__link">
+          <a href="#" class="link">What We Do</a>
+        </div>
+        <div class="footer__link">
+          <a href="#" class="link">FAQ</a>
+        </div>
+        <div class="footer__link">
+          <a href="#" class="link">Career</a>
+        </div>
+        <div class="footer__link">
+          <a href="#" class="link">Blog</a>
+        </div>
+        <div class="footer__link">
+          <a href="#" class="link">About Us</a>
+        </div>
+      </div>
+
+      <div class="links__social">
+        <a href="#" class="link__social">
+          <img class="link__imagen" src="images/icon-facebook.svg" alt="icono-facebook">
+        </a>
+        <a href="#" class="link__social">
+          <img class="link__imagen" src="images/icon-twitter.svg" alt="icono-twitter">
+        </a>
+        <a href="#" class="link__social">
+          <img class="link__imagen" src="images/icon-instagram.svg" alt="icono-instagram">
+        </a>
+      </div>
+    </div> 
+
+    <p class="footer__copy">
+      &copy; Copyright 2018 Huddle. All rights reserved. 
+    </p>
+
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/jorgecb10">Jorge Carranza</a>.
+    </p>
+  </footer>
+</body>
+</html>
